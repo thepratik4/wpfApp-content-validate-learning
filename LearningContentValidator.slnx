@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LearningContentValidator.App/LearningContentValidator.App.csproj" />
+    <Project Path="src/LearningContentValidator.Domain/LearningContentValidator.Domain.csproj" />
+    <Project Path="src/LearningContentValidator.Infrastructure/LearningContentValidator.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LearningContentValidator.Tests/LearningContentValidator.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,54 @@
+# ==============================================================================
+# Git Ignore Configuration: .NET, Visual Studio, JetBrains Rider, and Build Artifacts
+# ==============================================================================
+
+# Build results and intermediate artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+# Visual Studio files and caches
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.launchSettings.json
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider and Resharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# Test Results & Code Coverage
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Office Temporary Lock Files
+~$*
+
+# Sensitive / local overrides
+*.local.json
+appsettings.*.local.json
+
